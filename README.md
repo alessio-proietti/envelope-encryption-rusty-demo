@@ -1,6 +1,6 @@
-# rusty-demo
+# envelope-encryption-rusty-demo
 
-Small *Hello World* demo based on the unikernel [RustyHermit](https://github.com/hermitcore/libhermit-rs).
+Small *Envelope Encryption* demo based on the unikernel [RustyHermit](https://github.com/hermitcore/libhermit-rs).
 
 Please read the README of [RustyHermit](https://github.com/hermitcore/libhermit-rs) for more information.
 
@@ -14,6 +14,10 @@ Please read the README of [RustyHermit](https://github.com/hermitcore/libhermit-
 
 ## Usage
 
+## Init and update submodule
+```
+$ git submodule update --init
+```
 
 ### Build the Bootloader
 

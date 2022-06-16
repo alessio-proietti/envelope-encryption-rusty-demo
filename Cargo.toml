@@ -11,3 +11,8 @@ exclude = ["/.gitlab-ci.yml", ".gitignore", ".gitattributes", "/.vscode/*", "/.g
 
 [target.'cfg(target_os = "hermit")'.dependencies]
 hermit-sys = "0.2"
+
+[dependencies]
+base64 = "0.13.0"
+dryoc = { version = "0.3.12", features = ["serde"] }
+serde_json = "1.0.81"

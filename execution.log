@@ -1,0 +1,78 @@
+[LOADER] Loader: [0x100000 - 0x318010]
+[LOADER] Found Multiboot information at 0x9500
+[LOADER] Found module: [0x31a000 - 0x7c6430]
+[LOADER] Module length: 0x4ac430
+[LOADER] Found an ELF module at 0x31a000
+[LOADER] Map 230 pages at 0x31a000 (page size 4 KByte)
+[LOADER] Map 2 pages at 0x400000 (page size 2048 KByte)
+[LOADER] This is a supported HermitCore Application
+[LOADER] Found entry point: 0x21b0b0
+[LOADER] File Size: 3782014 Bytes
+[LOADER] Mem Size:  3882376 Bytes
+[LOADER] start 0x31a000, size 0x3b3d88
+[LOADER] Unsupported OS ABI 0x0
+[LOADER] Load HermitCore Application at 0x800000
+[LOADER] Found TLS starts at 0xa78628 (size 113 Bytes)
+[LOADER] BootInfo located at 0x117000
+[LOADER] Use stack address 0xa000
+[LOADER] Jumping to HermitCore Application Entry Point at 0xa1b0b0
+[0][INFO] Welcome to HermitCore-rs 0.4.0
+[0][INFO] Kernel starts at 0x800000
+[0][INFO] BSS starts at 0xb9f000
+[0][INFO] TLS starts at 0xa78628 (size 113 Bytes)
+[0][INFO] Enable FSGSBASE support
+[0][INFO] Found Multiboot info at 0x9500
+[0][INFO] Found cmdline at 0x319041 (size 42)
+[0][INFO] Total memory size: 63 MB
+[0][INFO] Kernel region: [0x800000 - 0xc00000]
+[0][INFO] A pure Rust application is running on top of HermitCore!
+[0][INFO] Heap: size 42 MB, start address 0xc00000
+[0][INFO] Heap is located at 0xc00000 -- 0x3600000 (0 Bytes unmapped)
+[0][INFO] 
+[0][INFO] ===================== PHYSICAL MEMORY FREE LIST ======================
+[0][INFO] 0x00000003600000 - 0x00000003FE0000
+[0][INFO] ======================================================================
+[0][INFO] 
+[0][INFO] 
+[0][INFO] ================== KERNEL VIRTUAL MEMORY FREE LIST ===================
+[0][INFO] 0x00000003600000 - 0x00800000000000
+[0][INFO] ======================================================================
+[0][INFO] 
+[0][INFO] 
+[0][INFO] ========================== CPU INFORMATION ===========================
+[0][INFO] Model:                   QEMU Virtual CPU version 2.5+
+[0][INFO] Frequency:               2607 MHz (from Measurement)
+[0][INFO] SpeedStep Technology:    Not Available
+[0][INFO] Features:                MMX SSE SSE2 SSE3 RDRAND MCE FXSR XSAVE RDTSCP CLFLUSH HYPERVISOR FSGSBASE 
+[0][INFO] Physical Address Width:  40 bits
+[0][INFO] Linear Address Width:    48 bits
+[0][INFO] Supports 1GiB Pages:     No
+[0][INFO] ======================================================================
+[0][INFO] 
+[0][INFO] HermitCore-rs booted on 2022-06-16 15:03:59.0 +00:00:00
+[0][WARN] PCI Device @8086:7000 has multiple functions! Currently only one is handled.
+[0][INFO] 
+[0][INFO] ======================== PCI BUS INFORMATION =========================
+[0][INFO] 00:00 Host bridge [0600]: Intel Corporation 440FX - 82441FX PMC [Natoma] [8086:1237]
+[0][INFO] 00:01 ISA bridge [0601]: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II] [8086:7000]
+[0][INFO] 00:02 VGA compatible controller [0300]: Unknown Vendor Unknown Device [1234:1111], MemoryBar: 0xfd000000 (size 0x1000000), MemoryBar: 0xfebf0000 (size 0x1000)
+[0][INFO] 00:03 Ethernet controller [0200]: Intel Corporation 82540EM Gigabit Ethernet Controller [8086:100E], IRQ 11, MemoryBar: 0xfebc0000 (size 0x20000), IOBar: 0xc000 (size 0x40)
+[0][INFO] ======================================================================
+[0][INFO] 
+[0][INFO] Found an ACPI revision 0 table at 0xF59A0 with OEM ID "BOCHS "
+[0][INFO] IOAPIC v32 has 24 entries
+[0][INFO] Disable IOAPIC timer
+[0][INFO] 
+[0][INFO] ===================== MULTIPROCESSOR INFORMATION =====================
+[0][INFO] APIC in use:             xAPIC
+[0][INFO] Initialized CPUs:        1
+[0][INFO] ======================================================================
+[0][INFO] 
+[0][INFO] Compiled with PCI support
+[0][INFO] Compiled with ACPI support
+[0][INFO] Compiled with FSGSBASE support
+[0][INFO] Compiled with SMP support
+[0][INFO] HermitCore is running on common system!
+[0][INFO] Number of interrupts
+[0][INFO] [0][7]: 1
+[0][INFO] Shutting down system
